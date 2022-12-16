@@ -1,8 +1,27 @@
 p{
     color: blue;
     font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+
 h1{
     color: blueviolet;
     font-size: 30px;
+    font-style: normal;
+}
+h1,p{
+    font-family: sans-serif;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+li h4{
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+.cursive{
+    font-family: cursive;
 }
