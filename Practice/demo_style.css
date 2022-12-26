@@ -1,14 +1,11 @@
-html{
+
+
+#sample-para{
     font-size: 30px;
-}
-#div1{
-    height: 4rem;
-    /* width: 100vw; */
-    width: 6rem;
-    background-color: #393a7b;
-}
-#div2{
-    height: 50%;
-    width: 50%;
-    background-color: cyan;
+    color: blue;
+    font-weight: 700;
+    text-align: justify;
+    line-height: 40px;
+    /* text-transform: uppercase; */
+    /* text-decoration: underline; */
 }
