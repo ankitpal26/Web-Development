@@ -1,5 +1,14 @@
+html{
+    font-size: 30px;
+}
 #div1{
-    height: 200px;
-    width: 200px;
-    background-color: red;
+    height: 4rem;
+    /* width: 100vw; */
+    width: 6rem;
+    background-color: #393a7b;
+}
+#div2{
+    height: 50%;
+    width: 50%;
+    background-color: cyan;
 }
