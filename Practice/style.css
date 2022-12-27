@@ -1,27 +1,77 @@
-p{
-    color: blue;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+
+body{
+    margin-left: 60px;
+    padding: 0px;
 }
 
+#content{
+    margin-top: 40px;
 
-h1{
-    color: blueviolet;
-    font-size: 30px;
-    font-style: normal;
 }
-h1,p{
+
+/* main header */
+main{
+    width: 70%;
+    display: inline-block;
+}
+#main-header{
+    width: 100%;
+}
+
+#site-desc a{
+
+    font-size: 2rem;
+    color: #1a1a1a;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1.25;
+    font-family: 'Gill Sans', sans-serif;
+}
+#view-img{
+    height: 15px;
+    width: 15px;
+}
+#view-span{
+     size: 1rem;
     font-family: sans-serif;
 }
 
-.uppercase{
-    text-transform: uppercase;
-}
-li h4{
-    text-transform: uppercase;
-    font-family: cursive;
+#blog-content {
+    font-size: 1,1rem;
+    font-family: Georgia,serif;
+    word-spacing: 1px;
+    line-height: 1.4;
 }
 
-.cursive{
-    font-family: cursive;
+
+/* Aside */
+aside{
+
+    display: inline-block;
+    width: 21%;
+    vertical-align: top;
+    margin-left: 4%;
+}
+.widget{
+    border-top: 4px solid black;
+}
+
+input{
+    display: block;
+    background-color: #F7F7F7;
+    margin-bottom: 15px;
+    padding: 4px;
+    color: black;
+    font-size: 1.2rem;
+}
+button[type="submit"]{
+
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+}
+.widget-title{
+    font-size: 1.5rem;
 }
